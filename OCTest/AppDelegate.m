@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SliderViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    SliderViewController *sliderController = [[SliderViewController alloc] init];
+    sliderController.leftController = [[LeftViewController alloc] init];
+    sliderController.mainController = [[MainController alloc] init];
+    sliderController.mainViewOffset = 275;
+    sliderController.leftViewOffset = 90;
+    sliderController.judgeOffset = 160;
+    sliderController.scaleScope = 0.77;
+    self.window.rootViewController = sliderController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
