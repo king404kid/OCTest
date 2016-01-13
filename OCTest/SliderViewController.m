@@ -37,9 +37,11 @@
     
     UIPanGestureRecognizer *panGest = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(moveViewWithGesture:)];
     [_mainView addGestureRecognizer: panGest];
+    panGest.enabled = false;     // 暂时屏蔽左侧栏
     
     UIPanGestureRecognizer *panGest2 = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(moveViewWithGesture:)];
     [_leftView addGestureRecognizer: panGest2];
+    panGest2.enabled = false;     // 暂时屏蔽左侧栏
     
     _tapGest = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapViewWithGesture:)];
     [_mainView addGestureRecognizer: _tapGest];

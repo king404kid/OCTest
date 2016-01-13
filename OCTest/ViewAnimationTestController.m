@@ -44,7 +44,7 @@
     [containerView addSubview:imageView2];
     imageView2.hidden = true;
     
-    CGFloat itemNum = 5;
+    CGFloat itemNum = 6;
     CGFloat itemWidth = 80;
     CGFloat itemHeight = 26;
     CGRect rect = CGRectMake((self.view.bounds.size.width-itemWidth*itemNum)/(itemNum+1), self.view.bounds.size.height-itemHeight-64, itemWidth, itemHeight);
@@ -155,6 +155,37 @@
                     }];
     
     // 这个函数会用toView来替换FrameView，FromView会从原来的父类移除。而且这里要注意一下，需要一个containerView包住他们，否则就会连通父view一起动画
+}
+
+#pragma mark - 动画6
+- (void)animation6:(UIButton *)button {
+    [UIView animateKeyframesWithDuration:5 delay:0 options:UIViewKeyframeAnimationOptionCalculationModeLinear animations:^{
+        [UIView addKeyframeWithRelativeStartTime:0.0 relativeDuration:0.15 animations:^{
+            containerView.transform = CGAffineTransformMakeRotation(M_PI * -1.5);
+        }];
+        [UIView addKeyframeWithRelativeStartTime:0.15 relativeDuration:0.1 animations:^{
+            containerView.transform = CGAffineTransformMakeRotation(M_PI * 1.0);
+        }];
+        [UIView addKeyframeWithRelativeStartTime:0.25 relativeDuration:0.2 animations:^{
+            containerView.transform = CGAffineTransformMakeRotation(M_PI * 1.3);
+        }];
+        [UIView addKeyframeWithRelativeStartTime:0.45 relativeDuration:0.2 animations:^{
+            containerView.transform = CGAffineTransformMakeRotation(M_PI * 0.8);
+        }];
+        [UIView addKeyframeWithRelativeStartTime:0.65 relativeDuration:0.35 animations:^{
+            //旋转后掉落
+            //最后一步，视图淡出并消失
+            CGAffineTransform shift =
+            CGAffineTransformMakeTranslation(180.0, 0.0);
+            CGAffineTransform rotate =
+            CGAffineTransformMakeRotation(M_PI * 0.3);
+            containerView.transform = CGAffineTransformConcat(shift, rotate);
+            containerView.alpha = 0.0;
+        }];
+    } completion:^(BOOL finished) {
+        containerView.transform = CGAffineTransformIdentity;
+        containerView.alpha = 1.0;
+    }];
 }
 
 @end

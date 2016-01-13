@@ -9,6 +9,7 @@
 #import "MainController.h"
 #import "TransformTestController.h"
 #import "ViewAnimationTestController.h"
+#import "NavAnimationTestController.h"
 
 @interface MainController ()
 
@@ -23,7 +24,9 @@
     
     TransformTestController *vc1 = [[TransformTestController alloc] init];
     ViewAnimationTestController *vc2 = [[ViewAnimationTestController alloc] init];
-    NSArray *ar = @[vc1, vc2];
+    NavAnimationTestController *vc3 = [[NavAnimationTestController alloc] init];
+    UINavigationController *vc4 = [[UINavigationController alloc] initWithRootViewController:vc3];
+    NSArray *ar = @[vc1, vc2, vc4];
     NSMutableArray *arD = [NSMutableArray new];
     [ar enumerateObjectsUsingBlock:^(UIViewController *viewController, NSUInteger idx, BOOL *stop) {
          UITabBarItem *item = nil;
@@ -36,12 +39,16 @@
                  item = [[UITabBarItem alloc] initWithTitle:@"animation" image:nil tag:1];
                  break;
              }
+             case 2: {
+                 item = [[UITabBarItem alloc] initWithTitle:@"segue" image:nil tag:1];
+                 break;
+             }
          }
          viewController.tabBarItem = item;
          [arD addObject:viewController];
      }];
     self.viewControllers = arD;
-    self.selectedIndex = 1;
+    self.selectedIndex = 2;
 }
 
 @end

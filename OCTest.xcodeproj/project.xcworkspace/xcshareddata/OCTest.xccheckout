@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>33D437E9-3644-4FCD-AD15-C6043DAF3EA1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OCTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D7D1B15D253616F892B304D982A1A6126602E605</key>
+		<string>https://github.com/king404kid/OCTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OCTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D7D1B15D253616F892B304D982A1A6126602E605</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/king404kid/OCTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D7D1B15D253616F892B304D982A1A6126602E605</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D7D1B15D253616F892B304D982A1A6126602E605</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OCTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
