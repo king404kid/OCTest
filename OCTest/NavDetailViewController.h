@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NavDetailViewController : UIViewController<UINavigationControllerDelegate>
+@interface NavDetailViewController : UIViewController<UINavigationControllerDelegate, UIViewControllerTransitioningDelegate>
 
 @property (readwrite, retain, nonatomic) UIImageView *image;
 @property (readwrite, retain, nonatomic) UIPercentDrivenInteractiveTransition *percentDrivenTransition;

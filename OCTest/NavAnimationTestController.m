@@ -37,7 +37,7 @@
     self.navigationController.delegate = self;
 }
 
-#pragma mark - 自定义转场
+#pragma mark - 自定义 navigation push
 - (id <UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC {
     if (operation == UINavigationControllerOperationPush && [toVC isKindOfClass:[NavDetailViewController class]]) {
         MagicMoveTransition *transition = [[MagicMoveTransition alloc]init];

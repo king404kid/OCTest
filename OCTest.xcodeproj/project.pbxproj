@@ -11,8 +11,11 @@
 		B2BCD9FB1C269F8F0070B7BA /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BCD9FA1C269F8F0070B7BA /* MainController.m */; };
 		B2BD4C761C2992E40013860B /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BD4C751C2992E40013860B /* SliderViewController.m */; };
 		B2BD4C791C2993270013860B /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BD4C781C2993270013860B /* LeftViewController.m */; };
+		B2BD724B1C4D2E0B00D9CB5D /* ModelFlipTransitionPush.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BD724A1C4D2E0B00D9CB5D /* ModelFlipTransitionPush.m */; };
+		B2BD724E1C4D33BD00D9CB5D /* ModelDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BD724D1C4D33BD00D9CB5D /* ModelDetailController.m */; };
 		B2BDAED91C454AFE009D3F6B /* MagicMovePopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BDAED81C454AFE009D3F6B /* MagicMovePopTransition.m */; };
 		B2BDBCB41C43EDD8003ECE26 /* MagicMoveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BDBCB31C43EDD8003ECE26 /* MagicMoveTransition.m */; };
+		B2BDE80E1C4FD6DC0062CD41 /* ModelFlipTransitionPop.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BDE80D1C4FD6DC0062CD41 /* ModelFlipTransitionPop.m */; };
 		B2BE3F6F1C1C299D006D3037 /* TransformTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BE3F6E1C1C299D006D3037 /* TransformTestController.m */; };
 		B2C1690C1C4236FC00A69C7A /* NavAnimationTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C1690B1C4236FC00A69C7A /* NavAnimationTestController.m */; };
 		B2C1690F1C42477C00A69C7A /* NavCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C1690E1C42477C00A69C7A /* NavCollectionViewCell.m */; };
@@ -45,10 +48,16 @@
 		B2BD4C751C2992E40013860B /* SliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderViewController.m; sourceTree = "<group>"; };
 		B2BD4C771C2993270013860B /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		B2BD4C781C2993270013860B /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		B2BD72491C4D2E0B00D9CB5D /* ModelFlipTransitionPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelFlipTransitionPush.h; sourceTree = "<group>"; };
+		B2BD724A1C4D2E0B00D9CB5D /* ModelFlipTransitionPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelFlipTransitionPush.m; sourceTree = "<group>"; };
+		B2BD724C1C4D33BD00D9CB5D /* ModelDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelDetailController.h; sourceTree = "<group>"; };
+		B2BD724D1C4D33BD00D9CB5D /* ModelDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelDetailController.m; sourceTree = "<group>"; };
 		B2BDAED71C454AFE009D3F6B /* MagicMovePopTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicMovePopTransition.h; sourceTree = "<group>"; };
 		B2BDAED81C454AFE009D3F6B /* MagicMovePopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicMovePopTransition.m; sourceTree = "<group>"; };
 		B2BDBCB21C43EDD8003ECE26 /* MagicMoveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicMoveTransition.h; sourceTree = "<group>"; };
 		B2BDBCB31C43EDD8003ECE26 /* MagicMoveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicMoveTransition.m; sourceTree = "<group>"; };
+		B2BDE80C1C4FD6DC0062CD41 /* ModelFlipTransitionPop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelFlipTransitionPop.h; sourceTree = "<group>"; };
+		B2BDE80D1C4FD6DC0062CD41 /* ModelFlipTransitionPop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelFlipTransitionPop.m; sourceTree = "<group>"; };
 		B2BE3F6D1C1C299D006D3037 /* TransformTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformTestController.h; sourceTree = "<group>"; };
 		B2BE3F6E1C1C299D006D3037 /* TransformTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformTestController.m; sourceTree = "<group>"; };
 		B2C1690A1C4236FC00A69C7A /* NavAnimationTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavAnimationTestController.h; sourceTree = "<group>"; };
@@ -91,6 +100,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2BD72481C4D2D1A00D9CB5D /* model animation */ = {
+			isa = PBXGroup;
+			children = (
+				B2BD72491C4D2E0B00D9CB5D /* ModelFlipTransitionPush.h */,
+				B2BD724A1C4D2E0B00D9CB5D /* ModelFlipTransitionPush.m */,
+				B2BD724C1C4D33BD00D9CB5D /* ModelDetailController.h */,
+				B2BD724D1C4D33BD00D9CB5D /* ModelDetailController.m */,
+				B2BDE80C1C4FD6DC0062CD41 /* ModelFlipTransitionPop.h */,
+				B2BDE80D1C4FD6DC0062CD41 /* ModelFlipTransitionPop.m */,
+			);
+			name = "model animation";
+			sourceTree = "<group>";
+		};
 		B2C169131C42540000A69C7A /* navigation animation */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +198,7 @@
 				B2C169151C42544E00A69C7A /* transform test */,
 				B2C169141C42542800A69C7A /* property test */,
 				B2C169131C42540000A69C7A /* navigation animation */,
+				B2BD72481C4D2D1A00D9CB5D /* model animation */,
 				B2C5BADB1BADA72F0027F04E /* main.m */,
 				B2C5BADD1BADA72F0027F04E /* AppDelegate.h */,
 				B2C5BADE1BADA72F0027F04E /* AppDelegate.m */,
@@ -315,10 +338,13 @@
 				B2C1690F1C42477C00A69C7A /* NavCollectionViewCell.m in Sources */,
 				B2BDAED91C454AFE009D3F6B /* MagicMovePopTransition.m in Sources */,
 				B2BCD9F81C2691A80070B7BA /* ViewAnimationTestController.m in Sources */,
+				B2BD724B1C4D2E0B00D9CB5D /* ModelFlipTransitionPush.m in Sources */,
+				B2BDE80E1C4FD6DC0062CD41 /* ModelFlipTransitionPop.m in Sources */,
 				B2BE3F6F1C1C299D006D3037 /* TransformTestController.m in Sources */,
 				B2C1690C1C4236FC00A69C7A /* NavAnimationTestController.m in Sources */,
 				B2BD4C761C2992E40013860B /* SliderViewController.m in Sources */,
 				B2C190C31BB675460040CDBC /* Account.m in Sources */,
+				B2BD724E1C4D33BD00D9CB5D /* ModelDetailController.m in Sources */,
 				B2C190C61BB675550040CDBC /* Person.m in Sources */,
 				B2BDBCB41C43EDD8003ECE26 /* MagicMoveTransition.m in Sources */,
 				B2C5BADF1BADA72F0027F04E /* AppDelegate.m in Sources */,
